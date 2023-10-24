@@ -1,3 +1,3 @@
 package com.rudransh.todokotlinfirebase.utils
 
-data class TodoData(val taskId: String, val task: String)
+data class TodoData(var taskId: String, var task: String)
